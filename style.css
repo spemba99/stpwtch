@@ -1,0 +1,55 @@
+body{
+  background-image: url(clock\ drawing.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main{
+    margin: auto;
+    margin-top: 90px;
+    width: 450px;
+    margin-left: 55%;
+}
+#display{
+    
+    font-size: 100px;
+    color: white;
+    background: darkcyan;
+    padding: 50px;
+}
+#title{
+    background: black;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    
+
+}
+.buttons{
+    font-size: 30px;
+    background: darkcyan;
+    padding: 30px 0;
+    text-align: center;
+    
+    
+    
+}
+
+button{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background: white;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    margin: 0;
+
+}
+
+button:hover{
+    color: black;
+    background-color: crimson;
+}
